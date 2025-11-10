@@ -115,27 +115,6 @@
             }
         }
 
-        @-webkit-keyframes morph-and-pulse {
-            0% {
-                -webkit-transform: scale(1) rotate(0deg);
-                opacity: 0.7;
-                border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-                box-shadow: 0 0 10px #ff0000;
-            }
-            50% {
-                -webkit-transform: scale(1.1) rotate(180deg);
-                opacity: 1;
-                border-radius: 50% 50% 60% 60% / 50% 50% 50% 50%;
-                box-shadow: 0 0 25px #ff0000;
-            }
-            100% {
-                -webkit-transform: scale(1) rotate(360deg);
-                opacity: 0.7;
-                border-radius: 60% 60% 40% 40% / 50% 50% 50% 50%;
-                box-shadow: 0 0 10px #ff0000;
-            }
-        }
-
         .album-list li {
             background-color: #181818;
             border-left: 4px solid #333;
@@ -175,22 +154,21 @@
 
         <section id="about" class="my-12 flex flex-col md:flex-row items-center gap-8">
             <div class="w-full md:w-1/3 flex-shrink-0">
-             <img src="C:\Users\WELCOME\CSS3\pictures\Marilyn Manson.jfif"
-                     alt="Marilyn Manson placeholder"
+                <img src="pictures/Marilyn Manson.jfif"
+                     alt="Marilyn Manson"
                      class="profile-image w-full h-auto object-cover">
             </div>
             <div class="w-full md:w-2/3">
                 <h2 class="font-metal text-4xl text-white mb-4">The Pale Emperor</h2>
                 <p class="text-lg leading-relaxed mb-4">
                     Born Brian Warner, the entity known as Marilyn Manson emerged from the swamps of Florida, a creature of spectacle and controversy. He is a musician, artist, and provocateur, who has spent decades holding a mirror to the grotesque nature of fame and society. His music is a sonic assault, a blend of industrial noise and glam rock, that has captivated and horrified audiences in equal measure.
-               </p>
-                
+                </p>
                 <div class="flex gap-4 items-center p-4 bg-gray-900/50 rounded-lg border border-red-900/40">
                     <p class="leading-relaxed flex-1">
                         This is not a tribute. It is a dissection of an artist who has made a career of dissecting culture. Here, we explore the aesthetics of shock and the beauty in the grotesque.
-                </p>
-                <img src="C:\Users\WELCOME\CSS3\pictures\LOGO.jpg" 
-                         alt="Logo Placeholder" 
+                    </p>
+                    <img src="pictures/LOGO.jpg" 
+                         alt="Logo" 
                          class="w-24 h-24 rounded-full shadow-lg shadow-red-900/50 flex-shrink-0 border-2 border-red-900/70 object-cover">
                 </div>
             </div>
@@ -210,7 +188,7 @@
 
                 <div class="p-6 rounded-lg shadow-xl border border-gray-800 bg-gray-900/50 flex flex-col items-center">
                     <h3 class="font-metal text-2xl text-white mb-4">Guns, God and Government</h3>
-                    <p class="text-center mb-6">The performances featured biblical and militaristic visuals, with Manson portraying himself as both preacher and dictator — a symbol of how power and belief can corrupt. It was also his response to being blamed for influencing the Columbine shooters, turning that public outrage into an artistic statement about hypocrisy and moral panic in America. The Guns, God and Government film captured this intense spectacle, showcasing Manson’s vision of turning rock music into a dark, thought-provoking form of performance art.</p></p>
+                    <p class="text-center mb-6">The performances featured biblical and militaristic visuals, with Manson portraying himself as both preacher and dictator — a symbol of how power and belief can corrupt. It was also his response to being blamed for influencing the Columbine shooters, turning that public outrage into an artistic statement about hypocrisy and moral panic in America. The Guns, God and Government film captured this intense spectacle, showcasing Manson’s vision of turning rock music into a dark, thought-provoking form of performance art.</p>
                     <div class="animation-icon"></div>
                 </div>
 
@@ -230,7 +208,7 @@
                 
                 <div class="p-6 rounded-lg shadow-xl border border-gray-800 bg-gray-900/50">
                     <h3 class="font-metal text-2xl text-white mb-2">“There’s nothing left for me to hide / I lost my ignorance, security and pride.”</h3>
-                    <p>Hover over the navigation links, the main image, or the album list items to see `transform` (like `translateY`, `rotate`, `scale`) and `transition` in action. They create smooth, responsive feedback.</p>
+                    <p>Here, Manson strips himself bare, confessing the loss of innocence and the painful clarity that comes with awareness. It’s nihilistic yet poetic — a raw acceptance of decay as truth.</p>
                 </div>
 
             </div>
@@ -240,127 +218,98 @@
             <h2 class="font-metal text-5xl text-white text-center mb-12 header-title">
                 Discography
             </h2>
-            
-            <h3 class="font-metal text-2xl text-white mb-4"></h3>
-            <p class="mb-6"></p>
 
             <ul class="album-list space-y-2 max-w-lg mx-auto">
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\POAAF.webp" 
-                            alt="Portrait of an American Family cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/POAAF.webp" alt="Portrait of an American Family cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         Portrait of an American Family (1994)
                     </div>
                     <span class="text-xs text-white italic">Era: Spooky Kids</span>
                 </li>
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\ACS.png" 
-                            alt="Antichrist Superstar cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/ACS.png" alt="Antichrist Superstar cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         Antichrist Superstar (1996)
                     </div>
                     <span class="text-xs text-white italic">Era: Triptych</span>
                 </li>
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\MA.jfif" 
-                            alt="Mechanical Animals cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/MA.jfif" alt="Mechanical Animals cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         Mechanical Animals (1998)
                     </div>
                     <span class="text-xs text-white italic">Era: Triptych</span>
                 </li>
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\HW.webp" 
-                            alt="Holy Wood cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/HW.webp" alt="Holy Wood cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         Holy Wood (2000)
                     </div>
                     <span class="text-xs text-white italic">Era: Triptych</span>
                 </li>
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\TGAOG.png" 
-                            alt="The Golden Age of Grotesque cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/TGAOG.png" alt="The Golden Age of Grotesque cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         The Golden Age of Grotesque (2003)
                     </div>
                     <span class="text-xs text-white italic">Era: Grotesque</span>
                 </li>
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\EMDM.webp" 
-                            alt="Eat Me, Drink Me cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/EMDM.webp" alt="Eat Me, Drink Me cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         Eat Me, Drink Me (2007)
                     </div>
                     <span class="text-xs text-white italic">Era: Blues</span>
                 </li>
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\HEOL.png" 
-                            alt="The High End of Low cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/HEOL.png" alt="The High End of Low cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         The High End of Low (2009)
                     </div>
                     <span class="text-xs text-white italic">Era: Blues</span>
                 </li>
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\BV.png" 
-                            alt="Born Villain cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/BV.png" alt="Born Villain cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         Born Villain (2012)
                     </div>
                     <span class="text-xs text-white italic">Era: Born Villain</span>
                 </li>
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\TPE.webp" 
-                            alt="The Pale Emperor cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/TPE.webp" alt="The Pale Emperor cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         The Pale Emperor (2015)
                     </div>
                     <span class="text-xs text-white italic">Era: Pale Emperor</span>
                 </li>
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\HUD.webp" 
-                            alt="Heaven Upside Down cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/HUD.webp" alt="Heaven Upside Down cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         Heaven Upside Down (2017)
                     </div>
                     <span class="text-xs text-white italic">Era: Heaven Upside Down</span>
                 </li>
                 <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\WAC.jpg" 
-                            alt="We Are Chaos cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/WAC.jpg" alt="We Are Chaos cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         We Are Chaos (2020)
                     </div>
                     <span class="text-xs text-white italic">Era: Chaos</span>
                 </li>
-                 <li class="p-4 rounded-md flex items-center justify-between group">
+                <li class="p-4 rounded-md flex items-center justify-between group">
                     <div class="flex items-center">
-                        <img src="C:\Users\WELCOME\CSS3\pictures\OAUG.jpg" 
-                            alt="We Are Chaos cover" 
-                            class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
+                        <img src="pictures/OAUG.jpg" alt="One Assassination Under God cover" class="w-10 h-10 mr-4 rounded-sm transition duration-300 group-hover:shadow-md group-hover:shadow-red-500/50">
                         One Assassination Under God (2024)
                     </div>
-                    <span class="text-xs text-white italic">Era: Chapter 1</span>
+                    <span class="text-xs text-white italic">Era: Chapter 11</span>
                 </li>
             </ul>
         </section>
-
     </main>
 
-    <footer class="text-center py-8 mt-12 border-t border-red-900/50">
-        <p class="text-white">EDROSA, GENESIS MATTHEW ICTMAWD111. COMPUTER PROGRAMMING 1 HTML/CSS3.</p>
+    <footer class="py-10 text-center border-t border-red-900/50 text-sm text-gray-400">
+        <p>EDROSA, GENESIS MATTHEW ICTMAWD111 - CSS3 FEATURES</p>
     </footer>
-
 </body>
 </html>
